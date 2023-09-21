@@ -17,6 +17,9 @@ exports.update = (req, res) => {
     res.send({ message: "update handler" });
 };
 
+exports.findAllFavorite = (req, res) => {
+    res.send({ message: "findAllFavorite handler" })
+}
 
 exports.delete = (req, res) => {
     res.send({ message: "delete handler" });
